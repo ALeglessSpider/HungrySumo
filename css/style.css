@@ -1,0 +1,401 @@
+/*
+Student: Talha Farid - M00795345
+Description: style.css (for page styling)
+*/
+
+/* standard style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body style */
+body {
+  background-color: black;
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+#myvideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.items-cont {
+  width: 60%;
+  height: 100%;
+  font-size: 1.2vw;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  z-index: 1;
+}
+
+/* home logo style */
+.logo-cont {
+  width: 30px;
+  z-index: 1;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+/* Signout Button style */
+
+#signOut-usr {
+  width: 30px;
+  z-index: 1;
+  color: aliceblue;
+  font-family: "Roboto", sans-serif;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+
+/* hover style */
+
+#log-out:hover {
+  transform: scale(1.2);
+}
+
+/* hover style */
+.logo-cont:hover {
+  transform: scale(1.2);
+}
+
+.items-cont a {
+  margin-left: 50px;
+  color: white;
+  font-weight: 200;
+}
+
+/* style for nav container */
+.nav-container {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 25px;
+}
+
+#log-out {
+  z-index: 2;
+}
+
+#name-of-the-current-user {
+  z-index: 2;
+  color: white;
+}
+
+/* style for form container */
+.form-container {
+  width: 100%;
+  height: 80vh;
+  position: relative;
+  overflow: hidden;
+}
+
+/* style for registeration box */
+.register-form {
+  width: 35%;
+  min-width: 35%;
+  height: 100%;
+  position: absolute;
+  left: 0%;
+  transition: 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5% 5;
+}
+
+.register-form h2 {
+  font-size: 3rem;
+  color: white;
+}
+
+.register-form input {
+  width: 80%;
+  height: 50px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 1.1vw;
+  color: gray;
+  padding-left: 10px;
+}
+
+/* style for video */
+.video {
+  width: 60%;
+  min-width: 60%;
+  height: 100%;
+  position: absolute;
+  left: 40%;
+  transition: 0.3s;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.form {
+  width: 35%;
+  min-width: 35%;
+  height: 100%;
+  position: absolute;
+  left: 105%;
+  transition: 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10% 0;
+}
+
+.form h2 {
+  font-size: 3rem;
+  color: white;
+}
+
+.form input {
+  width: 80%;
+  height: 50px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 1.1vw;
+  color: gray;
+  padding-left: 10px;
+}
+
+.btn-link {
+  padding: 3% 7%;
+  background-color: #fabbe4;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+  color: black;
+  font-weight: bold;
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.8) inset;
+}
+
+.changeForm {
+  color: white;
+}
+
+.changeForm p a {
+  color: #fabbe4;
+  font-weight: bold;
+}
+
+/* style for page footer */
+.footer {
+  width: 100%;
+  height: 70px;
+  position: relative;
+}
+
+li {
+  font-size: 1vw;
+}
+
+a li {
+  text-decoration: none;
+  color: white;
+}
+
+.iframe {
+  opacity: 0.8;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 20%;
+  height: 100%;
+  font-size: 1vw;
+  color: white;
+  padding-left: 25px;
+}
+
+/* form animation */
+
+.regMove {
+  left: -35%;
+}
+
+.vidMove {
+  left: 0;
+}
+
+.logMove {
+  left: 65%;
+}
+
+/* scoreboard */
+
+.score-container {
+  width: 100%;
+  height: 80vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.scoreboard {
+  display: flex;
+}
+
+/* style for table leaderboard page */
+.scoreboard table {
+  text-align: center;
+  width: 100%;
+  height: 50vh;
+  margin: 30px 30px 0 30px;
+}
+
+.scoreboard thead {
+  height: 10%;
+  border: 1px solid black;
+  background-color: white;
+  opacity: 0.7;
+}
+
+.scoreboard tbody {
+  height: 10%;
+  width: 100%;
+  border: 1px solid black;
+  background-color: white;
+  opacity: 0.7;
+}
+
+.heading {
+  width: 100%;
+  height: 10%;
+  background-color: black;
+  color: white;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* instructions */
+
+.inst-container {
+  width: 100%;
+  height: 76vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.title {
+  width: 100%;
+  font-size: 2vh;
+  text-align: center;
+}
+
+.inst {
+  width: 90%;
+  height: 95%;
+  display: flex;
+  padding: 2% 0;
+}
+
+
+.sec-2 {
+  width: 50%;
+  height: 100%;
+}
+
+/* score and lives */
+
+.scrCnt {
+  width: 100%;
+  color: whitesmoke;
+  font-size: 3vh;
+  text-align: center;
+}
+
+.lvsCnt {
+  width: 100%;
+  color: whitesmoke;
+  font-size: 3vh;
+  text-align: center;
+}
+
+/* game box */
+
+#DaBox {
+  width: 55%;
+  height: 85%;
+  display: flex;
+  padding: 2% 0;
+}
+
+#gameFrame {
+  width: 100%;
+  height: 100%;
+  border: 2px solid #000;
+}
+
+.sec-1,
+.sec-3 {
+  width: 25%;
+  height: 100%;
+}
+
+.sec-1 h2 {
+  font-size: 2.5rem;
+  color: white;
+}
+
+.sec-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  padding: 5% 3% 5% 0;
+}
+
+.inst-set {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+.sec-3 h2 {
+  font-size: 2.5rem;
+  color: white;
+}
+
+.sec-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5% 0;
+}
