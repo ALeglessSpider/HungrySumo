@@ -15,9 +15,7 @@ Item	Description:
 
 ![image](https://user-images.githubusercontent.com/74849680/153723580-879dd906-162a-4c81-8128-991608373606.png)
 
-
- Sample Image:
- ![image](https://user-images.githubusercontent.com/74849680/153723236-0b7b324e-5665-4385-8a87-000ed44f9157.png)
+![image](https://user-images.githubusercontent.com/74849680/153723236-0b7b324e-5665-4385-8a87-000ed44f9157.png)
 
 The Website
 
