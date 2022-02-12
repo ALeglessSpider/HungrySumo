@@ -9,18 +9,10 @@ Hungry Sumo is an endless game. To quit the game user can just let the sumo die 
 The user starts from score: 0, if the score goes any lower than that, upon eating rotten food, the user loses a life.
 
 Item	Description
-Cheeseburger	-- User gains 10 points upon eating it.
-Pizza --	User gains 10 points upon eating it.
-Chicken --	User gains 10 points upon eating it.
-Rotten Burger --	User loses 5 points upon eating it. (deadly)
-Rotten Pizza --	User loses 5 points upon eating it. (deadly)
-Pufferfish --	Takes up 1 life when user eats it.  (deadly)
-Fat Man --	User controllable character
+![image](https://user-images.githubusercontent.com/74849680/153723571-6e4d7a0c-5bd5-48c5-be78-e0ad57df4967.png)
 
+![image](https://user-images.githubusercontent.com/74849680/153723580-879dd906-162a-4c81-8128-991608373606.png)
 
-Game Controls:
-Move up: Arrow Key Up			    Move Left: Arrow Key Left
-Move down: Arrow Key Down 		Move Right: Arrow Key Right
 
  Sample Image:
  ![image](https://user-images.githubusercontent.com/74849680/153723236-0b7b324e-5665-4385-8a87-000ed44f9157.png)
