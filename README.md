@@ -8,7 +8,9 @@ In Hungry Sumo you play as a fat man, and your main goal is to eat your way to v
 Hungry Sumo is an endless game. To quit the game user can just let the sumo die or just sign out. 
 The user starts from score: 0, if the score goes any lower than that, upon eating rotten food, the user loses a life.
 
-Item	Description
+Item	Description:
+
+
 ![image](https://user-images.githubusercontent.com/74849680/153723571-6e4d7a0c-5bd5-48c5-be78-e0ad57df4967.png)
 
 ![image](https://user-images.githubusercontent.com/74849680/153723580-879dd906-162a-4c81-8128-991608373606.png)
