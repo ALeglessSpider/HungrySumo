@@ -1,8 +1,6 @@
 # HungrySumo
  Coursework 1 - Web Applications and Databases
  
- You can view it at https://hungrysumo.herokuapp.com/
- 
  Description
 In Hungry Sumo you play as a fat man, and your main goal is to eat your way to victory. You have four lives at your disposal. The user can move the fat man up, down, left and right using the arrow keys on the keyboard. The game starts with the fat man being spawned on the mat. Fresh and rotten food sprites and pufferfish randomly spawn and move in straight lines across the screen. To acquire more score, the user must consume fresh foods—consumption of rotten food results in score loss. The user must avoid the deadly pufferfish at all costs as upon colliding with the fish the user loses a life. The random spawning and fast movement of the food and the pufferfish sprites make the game quite challenging thus always keeping the user indulged and wanting to score more. 
 Hungry Sumo is an endless game. To quit the game user can just let the sumo die or just sign out. 
